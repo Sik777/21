@@ -1,0 +1,121 @@
+header{
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 1px rgb(175, 175, 175) solid;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+.logo{
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:rgb(0, 0, 0);
+    font-family: CORBEL;
+    font-size: 40px;
+
+}
+.header-right{
+    margin-left: 69%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    font-size: 20px;
+    font-family: Manrope;
+}
+.contact{
+    margin-right: 70px;
+}
+.contact:hover{
+    opacity: 0.8;
+}
+.project{
+
+}
+.project:hover{
+    opacity: 0.8;
+}
+
+.usp{
+    font-family: Manrope;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-colo: rgb(242, 243, 245);
+    
+}
+.usp-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.usp-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: black;
+}
+.usp-img{
+    
+}
+.img{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.usp-text{
+    max-width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: start;
+    font-size: 20px;
+    color: #4b4b4b;
+    font-family: Manrope;
+}
+
+.model{
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-colo: rgb(242, 243, 245);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.model-img{
+    margin: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.model1:hover{
+    filter: ;
+}
+
+footer{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    display: flex;
+    background-color: rgb(242, 243, 245);
+    justify-content: center;
+    text-align: center;
+    font-family: Manrope;
+}
+.footer-block{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: start;
+    font-size: 15px;
+}
+.footer-title{
+    margin-bottom: -5px;
+    font-size: 20px;
+    color: #4b4b4b;
+}
