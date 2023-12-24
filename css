@@ -1,11 +1,16 @@
+body{
+    font-family: Manrope;
+}
 header{
-    margin-left: -8px;
-    margin-right: -8px;
     border-bottom: 1px rgb(175, 175, 175) solid;
     display: flex;
     padding-top: 10px;
     padding-bottom: 15px;
-    
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 .logo{
     margin-left: 5%;
@@ -37,9 +42,10 @@ header{
     opacity: 0.8;
 }
 
+
 .usp{
     font-family: Manrope;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 100px;
     margin-left: -8px;
     margin-right: -8px;
@@ -76,6 +82,7 @@ header{
     font-family: Manrope;
 }
 
+
 .model{
     margin-left: -8px;
     margin-right: -8px;
@@ -92,9 +99,35 @@ header{
     border: 1px solid;
     border-radius: 10px;
 }
-.model1:hover{
-    filter: ;
+.model-text{
+    display: none;
+    position: absolute;
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    font-size: 30px;
+    top: 835px;
 }
+
+.model1:hover+.model-text1{
+    display: block;
+}
+.model2:hover+.model-text2{
+    display: block;
+}
+.model3:hover+.model-text3{
+    display: block;
+}
+
+.model img:hover{
+    filter: brightness(90%);
+}
+.model img:hover{
+    filter: brightness(90%);
+}
+.model img:hover{
+    filter: brightness(90%);
+}
+
 
 footer{
     margin-left: -8px;
